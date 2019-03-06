@@ -62,7 +62,7 @@ func pringtOutMap(_ model: Model, className: String) {
           print("  var \(key): [NSNumber] = []")
         }
       }else{
-        print("  var \(key): Any = []")
+        print("  var \(key): [Any] = []")
       }
     }else{
       print("  var \(key): NSNumber = 0")
