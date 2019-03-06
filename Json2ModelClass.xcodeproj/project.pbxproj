@@ -23,7 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2580A2C4222E604A002B312B /* JSON2Model */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = JSON2Model; sourceTree = BUILT_PRODUCTS_DIR; };
+		2580A2C4222E604A002B312B /* JSON2SwiftModel */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = JSON2SwiftModel; sourceTree = BUILT_PRODUCTS_DIR; };
 		2580A2C7222E604A002B312B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -41,7 +41,7 @@
 		2580A2BB222E604A002B312B = {
 			isa = PBXGroup;
 			children = (
-				2580A2C6222E604A002B312B /* JSON2Model */,
+				2580A2C6222E604A002B312B /* Json2SwiftModel */,
 				2580A2C5222E604A002B312B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,25 +49,25 @@
 		2580A2C5222E604A002B312B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2580A2C4222E604A002B312B /* JSON2Model */,
+				2580A2C4222E604A002B312B /* JSON2SwiftModel */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2580A2C6222E604A002B312B /* JSON2Model */ = {
+		2580A2C6222E604A002B312B /* Json2SwiftModel */ = {
 			isa = PBXGroup;
 			children = (
 				2580A2C7222E604A002B312B /* main.swift */,
 			);
-			path = JSON2Model;
+			path = Json2SwiftModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2580A2C3222E604A002B312B /* JSON2Model */ = {
+		2580A2C3222E604A002B312B /* JSON2SwiftModel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2580A2CB222E604B002B312B /* Build configuration list for PBXNativeTarget "JSON2Model" */;
+			buildConfigurationList = 2580A2CB222E604B002B312B /* Build configuration list for PBXNativeTarget "JSON2SwiftModel" */;
 			buildPhases = (
 				2580A2C0222E604A002B312B /* Sources */,
 				2580A2C1222E604A002B312B /* Frameworks */,
@@ -77,9 +77,9 @@
 			);
 			dependencies = (
 			);
-			name = JSON2Model;
+			name = JSON2SwiftModel;
 			productName = JSON2Model;
-			productReference = 2580A2C4222E604A002B312B /* JSON2Model */;
+			productReference = 2580A2C4222E604A002B312B /* JSON2SwiftModel */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -97,7 +97,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2580A2BF222E604A002B312B /* Build configuration list for PBXProject "JSON2Model" */;
+			buildConfigurationList = 2580A2BF222E604A002B312B /* Build configuration list for PBXProject "Json2ModelClass" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,7 +109,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2580A2C3222E604A002B312B /* JSON2Model */,
+				2580A2C3222E604A002B312B /* JSON2SwiftModel */,
 			);
 		};
 /* End PBXProject section */
@@ -264,7 +264,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2580A2BF222E604A002B312B /* Build configuration list for PBXProject "JSON2Model" */ = {
+		2580A2BF222E604A002B312B /* Build configuration list for PBXProject "Json2ModelClass" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2580A2C9222E604B002B312B /* Debug */,
@@ -273,7 +273,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2580A2CB222E604B002B312B /* Build configuration list for PBXNativeTarget "JSON2Model" */ = {
+		2580A2CB222E604B002B312B /* Build configuration list for PBXNativeTarget "JSON2SwiftModel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2580A2CC222E604B002B312B /* Debug */,
